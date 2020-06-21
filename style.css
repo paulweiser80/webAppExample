@@ -12,6 +12,7 @@ header, main, footer {
 header .container, main .container, footer .container {
 	max-width:855px;
 	margin: auto;
+
 }
 
 header {
@@ -39,6 +40,27 @@ header nav {
 main img {
 	float:right;
 	width:285px;
+}
+.contact {
+	float:left;
+	width:570px;
+}
+.sitemap {
+	
+	float:right;
+	width:285px;
+}
+
+.leftSitemap {
+	float:left;
+	width:142.5px;
+}
+.rightSitemap {
+	float:right;
+	width:142.5px;
+}
+h5 {
+	font-size: 1.2em
 }
 
 main {
