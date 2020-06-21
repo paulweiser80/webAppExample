@@ -1,5 +1,6 @@
 body {
 	background: #f9e933;
+	/*font-family: 'Open Sans', sans-serif;*/
 	
 }
 
@@ -17,14 +18,20 @@ header .container, main .container, footer .container {
 
 header {
 	background: white;
+	
 	overflow:auto;
+	padding-top:20px;
+	padding-bottom: 50px;
 }
 main {
 	background:white;
 	overflow:auto;
 }
 
+
 header h1 {
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-size: 30pt;
 	float:left;
 	width:570px;
 }
@@ -33,37 +40,53 @@ header nav {
 	width:285px;
 }
 
+main h2 {
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+main h3 {
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+}
+.image {
+	float:right;
+	width:285px;
+}
+
 .content {
 	float:left;
 	width:570px;
 }
-main img {
-	float:right;
-	width:285px;
-}
+
 .contact {
 	float:left;
 	width:570px;
+	padding-top:50px;
+}
+.address {
+	padding-top:10px;
 }
 .sitemap {
 	
 	float:right;
 	width:285px;
+	padding-top:50px;
 }
 
 .leftSitemap {
 	float:left;
-	width:142.5px;
+	width:122px;
+	padding-top:10px;
 }
 .rightSitemap {
 	float:right;
-	width:142.5px;
+	width:122px;
+	padding:10px;
 }
 h5 {
-	font-size: 1.2em
-}
-
-main {
-	background: white;
+	font-family: 'Ubuntu', sans-serif;
 	
 }
+
