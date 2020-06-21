@@ -8,10 +8,15 @@ h1 {
 	color: maroon;
 	text-align:center;
 }
-p {
+p.first {
 	color: gray;
 	border: 1px solid gray;
 	padding: 10px;
 }
-
+a {
+	color: tomato;
+}
+a:visited {
+	color:green;
+}
 }
