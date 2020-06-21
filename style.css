@@ -1,26 +1,16 @@
 body {
-	background:lightcyan;
-	width: 800px;
-	margin: auto;
+	background: #f9e933;
 }
 
-h1 {
-	color: maroon;
-	text-align:center;
-}
-p.first {
-	color: gray;
-	border: 1px solid gray;
-	padding: 10px;
-}
-a {
-	color: tomato;
-}
-a:visited {
-	color:green;
+header, main, footer {
+	min-width:855px;
 }
 
-.usp li:nth-child(2) {
-	background: orange;
+header {
+	background: white;
+	
 }
+main {
+	background: white;
+	
 }
