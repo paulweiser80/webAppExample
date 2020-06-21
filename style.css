@@ -5,8 +5,9 @@ body {
 }
 
 h1 {
-	color: marron;
+	color: maroon;
 	text-align:center;
+}
 p {
 	color: gray;
 	border: 1px solid gray;
