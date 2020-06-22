@@ -28,10 +28,19 @@ main {
 	overflow:auto;
 }
 
+a {
+	text-decoration: none;
+	color:red;
+
+}
+a:hover {
+	text-decoration:underline;
+}
 
 header h1 {
 	/*font-family: 'Ubuntu', sans-serif;*/
 	font-size: 30pt;
+	color: #742f37;
 	float:left;
 	width:570px;
 }
@@ -42,14 +51,20 @@ header nav {
 
 main h2 {
 	font-family: 'Ubuntu', sans-serif;
+	font-size: 20pt;
+	font-weight:bold;
 	
 }
 main h3 {
 	font-family: 'Ubuntu', sans-serif;
+	font-size: 15pt;
 	
 }
 
+.reasons {
+	padding-top:20px;
 }
+
 .image {
 	float:right;
 	width:285px;
